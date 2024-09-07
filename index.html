@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>this is testing</title>
+        <link rel="stylesheet" href="styles.css">
+
+    </head>
+    <main>
+        <div class="container">
+            <div id="widget">
+                <h2>Random Quote</h2>
+                <p id="quote"></p>
+                <p id="author"></p>
+                <button onclick="getQuote()">Get New Quote</button>
+                <p id="loading">Loading...</p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="api.js"></script>
+<script src="script.js"></script>
+</html>

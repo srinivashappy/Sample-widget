@@ -1,0 +1,19 @@
+:root{
+    --light-bg: #f9f9f9;
+    --light-text: #333;
+    --dark-bg: #333;
+    --dark-text: #f9f9f9;
+    --font-size-default:16px;
+}
+body{
+    background-color: var(--light-bg);
+    color: var(--light-text);
+    font-size: var(--font-size-default);
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
